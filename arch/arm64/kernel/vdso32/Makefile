@@ -79,7 +79,7 @@ VDSO_CFLAGS  += -O2
 VDSO_CFLAGS += $(call cc32-option,-Wdeclaration-after-statement,)
 VDSO_CFLAGS += $(call cc32-option,-Wno-pointer-sign)
 VDSO_CFLAGS += $(call cc32-option,-fno-strict-overflow)
-VDSO_CFLAGS += $(call cc32-option,-Werror=strict-prototypes)
+VDSO_CFLAGS += $(call cc32-option, )
 VDSO_CFLAGS += $(call cc32-option,-Werror=date-time)
 VDSO_CFLAGS += $(call cc32-option,-Werror=incompatible-pointer-types)
 
